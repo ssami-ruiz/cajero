@@ -9,12 +9,12 @@ class Billetes {
 }
 
 var imagen  = [];
-imagen[100] = "../img/billetes-100.jpg";
-imagen[50] = "../img/billetes-50.jpg";
-imagen[20] = "../img/billetes-20.jpg";
-imagen[10] = "../img/billetes-10.jpg";
-imagen[5] = "../img/billetes-5.jpg";
-imagen[1] = "../img/billetes-1.jpg";
+imagen[100] = "img/billetes-100.jpg";
+imagen[50] = "img/billetes-50.jpg";
+imagen[20] = "img/billetes-20.jpg";
+imagen[10] = "img/billetes-10.jpg";
+imagen[5] = "img/billetes-5.jpg";
+imagen[1] = "img/billetes-1.jpg";
 
 var caja = [];
 var entregado = [];
