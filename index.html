@@ -4,21 +4,25 @@
     <meta charset="utf-8">
     <title>Cajero Automatico</title>
     <link rel="shortcut icon" href="img/atm.png">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="img-cajero-atm">
-      <img src="img/cajero.gif" alt="cajero automatico ATM">
+    <div id="container">
+      <div id="post">
+      <div class="img-cajero-atm">
+        <img src="img/cajero.gif" alt="cajero automatico ATM">
+      </div>
+      <div class="form-cajero">
+        <input id="dinero" type="number">
+        <input id="extraer" type="button" value="Extraer">
+      </div>
+  
+      <div id="resultado">
+        <br>
+      </div>
     </div>
-    <div class="form-cajero">
-      <input id="dinero" type="number">
-      <input id="extraer" type="button" value="Extraer">
     </div>
-
-    <div id="resultado">
-      <br>
-    </div>
-
-    <!-- <script src="codigo.js" charset="utf-8"></script> -->
+  
     <script src="src/cajero.js" charset="utf-8"></script>
   </body>
 </html>
